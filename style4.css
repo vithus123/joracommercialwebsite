@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century;
+}
+header{
+
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('skirt1.webp');
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+   
+    min-height: 100px;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    position: absolute; 
+    top: 55px; 
+    right: 0px;
+   
+    font-size: 20px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 30px;
+    right: 40px;
+    border: 1px solid transparent;
+    transition: 0.3 ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+
+}
+.frock.active{
+    background-color: #fff;
+    color: #000;
+}
+.logo {
+  
+   font-size: 50px;
+   margin-top: 20px;
+   color:#fff;
+   font-weight: 800;
+   cursor: pointer;
+   padding: 20px 20px;
+    border: 1px solid transparent;
+
+    
+}
+.search{
+    float: right;
+    top: 35px; 
+    margin-right: 10px;
+    color: #000;
+
+
+
+
+}
+.btn{
+    background-color:#000;
+
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.button{
+    position:absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 5px;
+    color: #fff;
+    transition: 0.3 ease;
+    font-size:20px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #fff;
+    color:#000;
+}
+.Dresses{
+    display: none;
+    top: -40px;
+    position: relative;
+}
+.Dresses ul{
+    position: absolute;
+}
+
+.main ul li:hover .Dresses{
+    display: block;
+    position: absolute;
+    background-color: rgb(0,45,117);
+    margin-top: 15px;
+    margin-left: -8px;
+
+}
+.main ul li:hover.Dresses ul{
+    display: block;
+    margin: 6px;
+}
+
+.main ul li:hover.Dresses ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+    margin-top: 25px;
+    margin-left: -15px;
+    text-align: left;
+}
+.main ul li:hover.Dresses ul li:last-child{
+    border-bottom: none;
+}
+
+.main ul li:hover.Dresses ul li:hover{
+    color:burlywood
+}
+Dresses ul{
+    position: absolute;
+}
+
+.main ul li:hover .Dresses{
+    display: block;
+    position: absolute;
+    background-color: rgb(0,45,117);
+    margin-top: 15px;
+    margin-left: -8px;
+
+}
+.main ul li:hover.Dresses ul{
+    display: block;
+    margin: 6px;
+}
+
+.main ul li:hover.Dresses ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+    margin-top: 15px;
+    margin-left: -15px;
+    text-align: left;
+}
+.main ul li:hover.Dresses ul li:last-child{
+    border-bottom: none;
+}
+
+.main ul li:hover.Dresses ul li:hover{
+    color:burlywood
+}
+.flex.box{
+    display: flex;
+    width: 1000px;
+    margin: 40px auto;
+}
+.left{
+    width: 40%
+}
+.big-img{
+    width: 350px;
+}
+.big-img img{
+    width:inherit;
+    border: 1.5px solid black;
+    margin-left: 30px;
+
+}
+.images{
+    display:flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 20px;
+}
+.small-img{
+    width:120px;
+    overflow: hidden;
+    border: 1.3px solid black;
+
+}
+.small-img img{
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3 ease;
+
+
+}
+.small-img:hover img{
+    transform:scale(1.2);
+}
+
+.right{
+    top:50px;
+    right: 5px;
+    
+}
+.url{
+    font-size: 17px;
+    font-weight: 400;
+    color:rgb(65, 5, 129);
+
+}
+.pname{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.price{
+    color:antiquewhite;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.size{
+    display: flex;
+    align-items: center;
+    color:antiquewhite;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.psize p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.psize{
+    width:80px;
+    border:1px solid rgb(175, 7, 35);
+    color:black;
+    text-align:center;
+    margin: 0 10px;
+    cursor: pointer;
+
+}
+.psize.active{
+    border-width: 1.5px;
+    color:#800438;
+
+}
+
+.quantity{
+    display: flex;
+    color:antiquewhite;
+}
+.quantity p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.quantity input{
+    width: 30px;
+    font-size:17px;
+    font-weight: 500;
+    text-align:center;
+    margin-left: 15px;
+
+}
+.btn-box{
+    display: flex;
+    margin: 40px ;
+}
+
+.btn-box button{
+    font-size: 18px;
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.cart-btn{
+    background-color: rgb(161, 77, 77);
+    margin-right: 20px;
+}
+.buy-btn{
+    background-color: #00aeff;
+
+}.cart-btn:hover{
+    background-color: #762b51;
+}
+.buy-btn{
+    background-color:#00aeff; 
+}
+.buy-btn:hover{
+    background-color:green;
+}
+.wrapper{
+    
+    
+    position: absolute;
+    top: 100px;
+    right: 60px;
+    width: 620px;
+    background-color: rgb(154, 105, 105);
+    border:2px solid rgba(144, 69, 102, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(10, 4, 4, 0.2);
+    color:#000000;
+    border-radius: 10px;
+    margin-right:200px ;
+  margin-top: 140px; 
+  padding-right: 10px; 
+  padding-left:  10px; 
+
+}

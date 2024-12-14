@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">JORA</div>
+                
+        <ul>
+            <li><a href="#">Login</a></li>
+            <li ><a href="#">Home</a></li>
+            <li class="active"><a href="#"><i class="fa fa-clone">Product</a></li>
+                <div class="Dresses">
+                    <ul>
+                        <li><a href="Product.html">Frock</a></li>
+                        <li><a href="product1.html">Skirt</a></li>
+                        <li><a href="product2.html">Jeans</a></li>
+                        <li><a href="product3.html">Tops</a></li>
+
+
+                    </ul>
+
+                </div>
+            </li>
+            <li><a href="#">Shopping cart</a></li>
+            <li><a href="contact us.html">Contact us</a></li>
+            <li><a href="#">Privacy&Policy</a></li>
+
+            
+        </ul>
+    </div>
+    <div class="search">
+        <input class="srch" type="search" name="">
+        <a href="#"><button class="btn">Search</button></a>
+
+        
+    </div>
+    <div class="flex-box">
+        <div class="left">
+          <div class="big-img">
+            <img src="b1.jfif">
+          </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="b3.jpg" onclick="showImg(this.src)">
+
+                </div>
+                    <div class="small-img">
+                        <img src="b1.jfif" onclick="showImg(this.src)">
+                    </div>
+                        <div class="small-img">
+                            <img src="b2.jpg" onclick="showImg(this.src)">
+                            </div>
+             </div>
+        </div>
+    <div class="wrapper">
+    <div class="right">
+        <div class="url">JORA >Home >Product >Frock</div>
+        <div class="pname">Floral & chiffon tops</div>
+        <p>Chiffon Pattern A-Line SleeveLength Style Neckline O-Neck Material Lanon, Polyester</p>
+        <dic class="price">Rs 3450</div>
+
+            <div class="size">
+                <p>Size:</p>
+                <div class="psize active">UK10</div>
+                <div class="psize">UK12</div>
+                <div class="psize">UK14</div>
+                <div class="psize">UK16</div>
+
+            </div>
+            <div class="quantity">
+                <p>Quantity:</p>
+                <input type="number" min="1" max="4" value="1">
+                </div>
+                    <div class="btn-box">
+                        <button class="cart-btn">Add to cart</button>
+                        <button class="buy-btn">Buy now</button>
+
+
+                    </div>
+  </div>   
+    </div>
+    <script>
+    
+        let bigImg=document.querySelector('.big-img img');
+        function showImg(pic){
+            bigImg.src=pic;
+        }
+    </script>
+            

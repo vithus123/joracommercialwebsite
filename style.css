@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century;
+}
+header{
+
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(aes1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    position: absolute; 
+    top: 55px; 
+    right: 0px;
+   
+    font-size: 20px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 30px;
+    right: 40px;
+    border: 1px solid transparent;
+    transition: 0.3 ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+
+}
+.logo {
+  
+   font-size: 50px;
+   margin-top: 20px;
+   color:#fff;
+   font-weight: 800;
+   cursor: pointer;
+   padding: 20px 20px;
+    border: 1px solid transparent;
+
+    
+}
+
+.search{
+    float: right;
+    top: 35px; 
+    margin-right: 10px;
+    color: #000;
+
+
+
+
+}
+.btn{
+    background-color:#000;
+
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position:absolute;
+    top: 47%;
+    left: 50%;
+    position: center;
+    transform: translate(-50%,-50%);
+
+}
+.title h1{
+    color: #fff;
+    font-size:70px;
+}
+.button{
+    position:absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 5px;
+    color: #fff;
+    transition: 0.3 ease;
+    font-size:20px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #fff;
+    color:#000;
+}
+.Dresses{
+    display: none;
+    top: -40px;
+    left: 40%;
+    position: absolute;
+}
+.Dresses ul{
+    position: absolute;
+}
+
+.main ul li:hover .Dresses{
+    display: block;
+    position: absolute;
+    background-color: rgb(0,45,117);
+    margin-top: 15px;
+    margin-left: -8px;
+
+}
+.main ul li:hover.Dresses ul{
+    display: block;
+    margin: 6px;
+}
+
+.main ul li:hover.Dresses ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+    margin-top: 25px;
+    margin-left: -15px;
+    text-align: left;
+}
+.main ul li:hover.Dresses ul li:last-child{
+    border-bottom: none;
+}
+
+.main ul li:hover.Dresses ul li:hover{
+    color:burlywood
+}
+
+footer {
+    background-color: #d4841c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-logo img {
+    width: 100px;
+}
+
+
+.footer-info h3 {
+    font-size: 18px;
+}
+
+
+.footer-links h3 {
+    font-size: 18px;
+}
+
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 10px 0;
+}
+
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+}
+
